@@ -66,7 +66,7 @@ body
     display :flex;
     justify-content:flex-start;
 }
-.left-inner .started
+ .started
 {
     margin-right: .5rem;
     display: inline-block;
@@ -87,11 +87,11 @@ body
     transition-duration: .5s;
     margin-right: 10px;
 }
-.left-inner .started:hover
+.left-inner:hover .started
 {
     background-color: rgb(62, 56, 179);
 }
-.left-inner .document .document
+ .document .document
 {
     display: inline-block;
     border-width: 2px;
@@ -114,7 +114,7 @@ body
 
 
 }
-.left-inner .document:hover .document
+ .document:hover .document
 {
     background-color: rgb(62, 56, 179);
     color: #fff;
@@ -177,6 +177,7 @@ body
     line-height: 1.625;
     text-align: center;
     font-size: 1rem;
+    font-weight: 580;
 }
 .rightText
 {
@@ -236,4 +237,108 @@ body
 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    justify-content: space-between;
+}
+.downloadBox
+{
+    color: rgb(22 28 45);
+    background-color: #fff;
+    width: 30rem;
+    height: 40rem;
+    margin-left: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: .5rem;
+    position: relative;
+
+}
+.insideBox
+{
+    display:flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+.image2
+{
+    width: 95%;
+    height: auto;
+}
+.download:hover .started
+{
+    background-color: rgb(62, 56, 179);
+}
+.download
+{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputBox
+{
+    margin-bottom: 1.25rem;
+    
+}
+.input
+{
+    margin-top: 1.5rem;
+}
+.inputLabel
+{
+    font-weight: bold;
+}
+.redText
+{
+    color: rgb(220 38 38);
+}
+.inputText
+{
+    position: relative;
+    margin-top :.5rem;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+.inputText1
+{
+    padding-left:3rem;
+    height: 2.5rem;
+    width: 85%;
+    border-radius: .25rem;
+    border-width: 1px;
+    border-color: inherit;
+    background-color: transparent;
+    outline: transparent solid 2px;   
+}
+.section4
+{
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.font-medium
+{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.margin-bottom
+{
+    margin-bottom: 1rem;
+}
+.textCenter
+{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.center 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    
 }
