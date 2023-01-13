@@ -616,6 +616,33 @@ img
     left: 6.4rem;
     width: 115%;
 }
+.py10px
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.px0 
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.border-top
+{
+    border-top: 1px solid;
+    border-color: rgb(42, 28, 77);
+}
+.footerImg
+{
+    width: 2rem;
+    height: auto;
+    border-radius: .02rem;
+}
+.textCenter
+{
+    align-items: center;
+}
 
 
 
