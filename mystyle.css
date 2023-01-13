@@ -584,9 +584,38 @@ img
 }
 .mt10px
 {
-    margin-top: 10px;
+    margin-top: 5px;
 }
-
+.pd0
+{
+    padding-left: 0;
+}
+.m2
+{
+    margin-right: 0.5rem;
+}
+.footerList
+{
+    transition-duration: .5s;
+    transition-property: color;
+}
+.footerList:hover
+{
+    color:#808183
+}
+.emailIcon
+{
+    position: absolute;
+    left: 10px;
+    top: 30%;
+}
+.absolute
+{
+    position: absolute;
+    top: 200%;
+    left: 6.4rem;
+    width: 115%;
+}
 
 
 
