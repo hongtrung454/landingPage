@@ -11,7 +11,7 @@ body
 {
     padding-top: 11rem;
     padding-bottom: 11rem;
-    width: 100%;
+    width: 100% !important;
     display: table;
     position: relative;
 
@@ -30,7 +30,6 @@ body
 }
 .section1 .container .left
 {
-    margin-right: 1.5rem ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -411,7 +410,7 @@ body
 {
     width: 50%;
     height: 23rem;
-    background-color: #fff;
+    background-color: rgb(241, 240, 240);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: .375rem;
 }
@@ -642,6 +641,118 @@ img
 .textCenter
 {
     align-items: center;
+}
+.body
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* @media (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 1280px;
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+} */
+@media (min-width: 46.25em ) and (max-width: 63.9375em)
+{
+    .section1
+    {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        display: table;
+    }
+    .container
+    {
+        max-width: 768px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container2
+    {
+    position: relative;
+    max-width: 768px;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    }
+    .containerAfter
+    {
+        padding: 0;
+        max-width: 740px;
+    }
+    .downloadBox
+    {
+        width: auto;
+    }
+    .right
+    {
+        height: auto;
+        display: flex !important;
+        justify-content: center;
+    }
+    .container .image
+    {
+        height: auto;
+        padding-right: 20px;
+    }
+    .downloadBox
+    {
+        margin-left: 2.5rem;
+    }
+    .profile1
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .profileImg 
+    {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1rem;
+    }
+    .profileText
+    {
+        text-align: center;
+    }
+    .centerTxt
+    {
+        text-align: center !important;
+    }
+    .flex-column
+    {
+        flex-direction: column !important;
+    }
+    .innerText3
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .innerText2
+    {
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .row
+    {
+        max-width: 100%;
+    }
 }
 
 
@@ -1079,7 +1190,7 @@ img
 /* Tablet - PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
     .wide {
-        width: 644px;
+        width: 740px;
     }
 }
 
